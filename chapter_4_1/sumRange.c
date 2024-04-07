@@ -33,6 +33,4 @@ int main (int argc, char **argv)
     printf("sumRange(%d, %d)=%d\n", begin, end, sumRange(begin, end));
 
     return SUCCESS;
-
-    return 0;
 }
