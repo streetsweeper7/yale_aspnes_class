@@ -24,7 +24,7 @@ int main (int argc, char **argv)
     int begin = atoi(argv[1]); // Convert the second argument, begin, to an integer from string
     int end = atoi(argv[2]); // Convert the third argument,end, to an integer from a string
 
-    printf("sumRange(%d, %d)=%d", begin, end, sumRange(begin, end));
+    printf("sumRange(%d, %d)=%d\n", begin, end, sumRange(begin, end));
 
     return 0;
 }
